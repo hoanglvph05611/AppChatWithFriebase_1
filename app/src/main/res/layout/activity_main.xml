@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="#02aace"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-50dp"
+            android:orientation="horizontal">
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/online1"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginTop="-10dp"/>-->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/profile_image"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lê Hoàng"
+                    android:layout_gravity="center_vertical
+"
+                    android:id="@+id/usernames"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_layout"
+        android:background="#02aace"
+        app:tabSelectedTextColor="#FFFFFF"
+        app:tabIndicatorColor="#719097"
+        app:tabTextColor="#F5F5F5" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroud">
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view_pager"/>
+
+
+
+
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/mBottom"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:background="#ffffff">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="43dp"-->
+                <!--android:layout_height="43dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:id="@+id/imgCamera"-->
+                <!--android:src="@drawable/camera" />-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/ivSend"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:padding="8dp"-->
+                <!--android:src="@drawable/send" />-->
+
+            <!--<com.rockerhieu.emojicon.EmojiconEditText-->
+                <!--android:id="@+id/edMsg"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_toLeftOf="@+id/ivSend"-->
+                <!--android:layout_toRightOf="@+id/imgCamera"-->
+                <!--android:hint="Say something..."-->
+                <!--android:imeOptions="actionSend"-->
+                <!--android:background="@null"/>-->
+
+        <!--</RelativeLayout>-->
+    </RelativeLayout>
+</LinearLayout>

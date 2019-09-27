@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1006707183207",
+    "firebase_url": "https://appchatwithfriebase.firebaseio.com",
+    "project_id": "appchatwithfriebase",
+    "storage_bucket": "appchatwithfriebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006707183207:android:b6f5f903bf23c197",
+        "android_client_info": {
+          "package_name": "com.lvh.appchatwithfriebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006707183207-nfhm962d3hto907op0c9knvt2qkresuf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lvh.appchatwithfriebase",
+            "certificate_hash": "1b86e36ad5d4132e6a25cca58676e5d387557377"
+          }
+        },
+        {
+          "client_id": "1006707183207-fhcq95hjje93l1p34mk2jqtttl59qp4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCTo06QZIjazpRwrO8gg7fmRfEVBkfD_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006707183207-fhcq95hjje93l1p34mk2jqtttl59qp4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
